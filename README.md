@@ -132,8 +132,19 @@ using UnityEngine;
 public class KureToplayici : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
-    {
-        Debug.Log("Toplanan Küre: " + other.tag);
+    {              
+        if (other.gameObject.CompareTag("MaviKure"))
+        {
+            Debug.Log("Mavi Küre yok oldu");            
+        }
+        else if (other.gameObject.CompareTag("KirmiziKure"))
+        {
+            Debug.Log("Kırmızı Küre yok oldu");           
+        }
+        else if (other.gameObject.CompareTag("YesilKure"))
+        {
+            Debug.Log("Yeşil Küre yok oldu");
+        }
         Destroy(other.gameObject);
     }
 }

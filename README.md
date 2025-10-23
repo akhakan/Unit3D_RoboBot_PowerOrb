@@ -195,6 +195,6 @@ Assets/
 
 ---
 
-📘 **Unity Oyun Programlama Sınavı Senaryosu**
+📘 **Unity Oyun Programlama Sınavı Senaryosu** 
 🛠️ **Konu:** Fizik, Input, Prefab, Collider, Script ve Tag kullanımı  
 💡 **Amaç:** Temel oyun mekaniği oluşturma ve kontrol sistemi geliştirme
